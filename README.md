@@ -9,7 +9,7 @@ Top level file: demo.py - Example of the project running
 
 Subdirectory files:
 1) visualization.py - Runs the visualizations which display the parameter sliders and resulting plots.
-2) solver.py - Includes all of the numerical calculations needed for the simulation
+2) num_solver.py - Includes all of the numerical calculations needed for the simulation
 
 **Steps to Complete Project**
 
@@ -29,11 +29,8 @@ $\dot{a}=H_0\left[ \sum \left(\Omega_{i,0}a^{-3(1+w_i)}\right) + \frac{1-\Omega_
 
 $\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{\Lambda,0} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ in $\Lambda$CDM
 
-Because in LambdaCDM, $w_{DE}=-1 \Rightarrow \Omega_{DE}(a)=\Omega_{DE,0}a^{-3(1+(-1))}=\Omega_{DE,0}$ constant
+Because in $\Lambda$CDM, $w_{DE}=-1 \Rightarrow \Omega_{DE}(a)=\Omega_{DE,0}a^{-3(1+(-1))}=\Omega_{DE,0}$ constant
 
 Now, we are using the CPL parameterization $w(a)=w_0+w_a(1-a)$. Which makes $\rho_{DE} = \rho_{DE,0}a^{-3(1 + w_0+w_a(1-a))} = \rho_{DE,0}a^{-3(1 + w_0+w_a)}e^{-3w_a(1-a)}$
 
-$\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{DE,0}a^{-3(1 + w_0+w_a)}e^{-3w_a(1-a)} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ using CPL
-
-
-DESI paper: https://arxiv.org/pdf/2503.14738
+$\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{DE,0}a^{-3(1 + w_0+w_a)}e^{-3w_a(1-a)} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ using CPL.
