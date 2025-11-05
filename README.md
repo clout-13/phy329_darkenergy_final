@@ -26,9 +26,9 @@ $\Omega_i(t) = \frac{\rho_i(t)}{\rho_c(t)}$
 
 $\dot{a}=H_0\left[ \sum \left(\Omega_{i,0}a^{-3(1+w_i)}\right) + \frac{1-\Omega_0}{a^2}  \right]^{1/2}$
 
-$\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \frac{\Omega_{\Lambda,0}} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ in LambdaCDM
+$\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{\Lambda,0} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ in LambdaCDM
 
-Because in LambdaCDM, $w_{DE}=-1 \Rightarrow \Omega_{DE}(a)=\Omega_{DE,0}a^{-3(1+(-1)}=\Omega_{DE,0}$ constant
+Because in LambdaCDM, $w_{DE}=-1 \Rightarrow \Omega_{DE}(a)=\Omega_{DE,0}a^{-3(1+(-1))}=\Omega_{DE,0}$ constant
 
 Now, we are using the CPL parameterization $w(a)=w_0+w_a(1-a)$. Which makes $\rho_{DE} = \rho_{DE,0}a^{-3(1 + w_0+w_a(1-a))} = \rho_{DE,0}a^{-3(1 + w_0+w_a)}e^{-3w_a(1-a)}$
 
