@@ -1,2 +1,2 @@
-# Universe Expansion Simulation with CPL parameterization
+# Universe Expansion Simulation with CPL Parameterization
 Dark Energy Simulation Project
