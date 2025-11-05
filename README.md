@@ -2,7 +2,7 @@
 Dark Energy Simulation Project
 
 
-Planned Directory Structure:
+**Planned Directory Structure:**
 
 Top level file: demo.py - Example of the project running
 Subdirectory files: visualization.py - Runs the visualizations which display the parameter sliders and resulting plots.
@@ -10,7 +10,7 @@ Subdirectory files: visualization.py - Runs the visualizations which display the
 
 
 
-Additional equations, references, and info:
+**Additional equations, references, and info:**
 
 $\[\rho_i(a)=\rho_0a^{-3(1+w_i)}\]$
 
