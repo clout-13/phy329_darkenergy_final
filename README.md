@@ -7,8 +7,9 @@ The geometry and evolution of the Universe is determined by a set of components,
 
 Top level file: demo.py - Example of the project running
 
-Subdirectory files: visualization.py - Runs the visualizations which display the parameter sliders and resulting plots.
-                    solver.py - Includes all of the numerical calculations needed for the simulation
+Subdirectory files:
+1) visualization.py - Runs the visualizations which display the parameter sliders and resulting plots.
+2) solver.py - Includes all of the numerical calculations needed for the simulation
 
 **Steps to Complete Project**
 
@@ -26,7 +27,7 @@ $\Omega_i(t) = \frac{\rho_i(t)}{\rho_c(t)}$
 
 $\dot{a}=H_0\left[ \sum \left(\Omega_{i,0}a^{-3(1+w_i)}\right) + \frac{1-\Omega_0}{a^2}  \right]^{1/2}$
 
-$\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{\Lambda,0} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ in LambdaCDM
+$\dot{a}=H_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{\Lambda,0} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$ in $Lambda$CDM
 
 Because in LambdaCDM, $w_{DE}=-1 \Rightarrow \Omega_{DE}(a)=\Omega_{DE,0}a^{-3(1+(-1))}=\Omega_{DE,0}$ constant
 
