@@ -1,2 +1,2 @@
-# phy329_darkenergy_final
+# Universe Expansion Simulation with CPL parameterization
 Dark Energy Simulation Project
