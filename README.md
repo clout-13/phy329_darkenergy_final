@@ -1,7 +1,7 @@
 # Universe Expansion Simulation with CPL Parameterization
 Dark Energy Simulation Project
 
-\[\rho_i(a)=\rho_0a^{-3(1+w_i)}\]
+$\[\rho_i(a)=\rho_0a^{-3(1+w_i)}\]$
 
 
 
