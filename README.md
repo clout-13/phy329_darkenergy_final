@@ -27,10 +27,10 @@ Subdirectory files:
 4) Plot solutions
 
 **Member Contributions**
-- Christa: 
-- Sanskar: 
-- Gautam: 
-- Saurav: 
+- Christa: Visualization of simulation results (plots, sliders, maps, etc)
+- Sanskar: Creating functions for equations needed to solve/aid in solving
+- Gautam: Produce solutions of main differential equation
+- Saurav: Implement variation of values of $w(z)$ to find range of diffeq solutions.
 
 **Additional equations, references, and info:**
 
