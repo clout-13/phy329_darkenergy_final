@@ -1,7 +1,15 @@
 # Universe Expansion Simulation with CPL Parameterization
 
 **Project Description:**
-The geometry and evolution of the Universe is determined by a set of components, matter, radiation, dark energy and curvature. The equation of state parameter for dark energy (according to the currently accepted $\Lambda$-CDM model) is a constant of $w=-1$. However, it has been proposed that the equation of state parameter may vary with the scale factor of the Universe, $a(t)$, and hence with time. We intend to use the CPL parameterization (a certain description of a non-constant dark energy equation of state parameter) to model how the Universe would expand with such time-evolving dark energy. 
+The geometry and evolution of the Universe is determined by a set of components: matter, radiation, dark energy and curvature. The equation of state parameter for dark energy (according to the currently accepted $\Lambda$-CDM model) is a constant of $w_{DE}=-1$. However, it has been proposed that the equation of state parameter may vary with the scale factor of the Universe, $a(t)$, and hence with time. We intend to use the CPL parameterization (a certain description of a non-constant dark energy equation of state parameter) to model how the Universe would expand with such time-evolving dark energy. 
+
+The Friedmann equation is the ODE that determines the time evolution of the scale factor $a(t)$ for a universe given certain values of the present energy densities of the universe's components $\Omega_m, \Omega_r, \Omega_{DE}$, and their equation of state parameters $w_m=0,w_r=\frac{1}{3},w_{DE}$. The CPL parameteriztion for $w_{DE}$ is given by $w_{DE}(a)=w_0+w_a(1-a)$ where $w_0$ and $w_a$ are some constant parameters.  
+
+We will create a program which can solve a version of the Friedmann equation implementing the CPL parameterization given any specified values of the modern density parameters $\Omega_m, \Omega_r, \Omega_{DE}$ and the CPL parameters $w_0$ and $w_a$, and make plots of the scale factor as a function of time $a(t)$. 
+
+We will investigate how the end-time behavior of the universe changes as we vary the parameters of the Friedmann equation, particularly the CPL parameters $w_0,w_a$ which model the nature of dark energy. We will attempt to map out the $w_a,w_0$ phase space into regions where the universe would expand indefinitely over infinite time ("Big Chill" or "Heat Death"), where the universe would collapse back to a point in finite time ("Big Crunch"), where the universe's scale factor would blow up to infinity in finite time ("Big Rip") and any other behaviors we may observe.   
+
+We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
 **Planned Directory Structure:**
 
