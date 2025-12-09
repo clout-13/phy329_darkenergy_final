@@ -11,11 +11,11 @@ We will investigate how the end-time behavior of the universe changes as we vary
 
 We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
-**Planned Directory Structure:**
+**Directory Structure:**
 
 Top level file: demo.py - Example of the project running
 
-Subdirectory files:
+Subdirectory file:
 - FriedmannEquationCPL.py - FriedmannEquationCPL class which contains parameters and setup for model universe, as well as solvers for the Friedmann Equation and universe age. To be called in demo.py to create visualizations from the solutions.
 
 ## Scientific Background
