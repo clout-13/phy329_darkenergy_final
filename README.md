@@ -22,8 +22,8 @@ Subdirectory files:
 **Steps to Complete Project**
 
 1) Conceptualize the math and equations involved
-2) Express the scale factor (or other functions that we intend to study) as a function of the equation of state parameter $w(z)$
-3) Identify numerical methods to solve the resulting differential equation and solve using varying values of the $w(z)$
+2) Express the scale factor (or other functions that we intend to study) as a function of the equation of state parameter $w(a)$
+3) Identify numerical methods to solve the resulting differential equation and solve using varying values of the $w(a)$
 4) Plot solutions
 5) Perform parameter sweeps and explore the impacts on the solution behavior.
 
