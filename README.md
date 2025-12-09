@@ -19,20 +19,6 @@ Subdirectory files:
 1) visualization.py - Runs the visualizations which display the parameter sliders and resulting plots.
 2) num_solver.py - Includes all of the numerical calculations needed for the simulation
 
-**Steps to Complete Project**
-
-1) Conceptualize the math and equations involved
-2) Express the scale factor (or other functions that we intend to study) as a function of the equation of state parameter $w(a)$
-3) Identify numerical methods to solve the resulting differential equation and solve using varying values of the $w(a)$
-4) Plot solutions
-5) Perform parameter sweeps and explore the impacts on the solution behavior.
-
-**Member Contributions**
-- Christa: Visualization of simulation results (plots, sliders, maps, etc)
-- Sanskar: Creating functions for equations needed to solve/aid in solving
-- Gautam: Produce solutions of main differential equation
-- Saurav: Implement variation of values of $w(z)$ to find range of diffeq solutions.
-
 ## Scientific Background
 
 ### History
