@@ -16,8 +16,7 @@ We will also compare the performance of using a standard vs an implicit ODE solv
 Top level file: demo.py - Example of the project running
 
 Subdirectory files:
-1) visualization.py - Runs the visualizations which display the parameter sliders and resulting plots.
-2) num_solver.py - Includes all of the numerical calculations needed for the simulation
+- FriedmannEquationCPL.py - FriedmannEquationCPL class which contains parameters and setup for model universe, as well as solvers for the Friedmann Equation and universe age. To be called in demo.py to create visualizations from the solutions.
 
 ## Scientific Background
 
