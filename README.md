@@ -11,6 +11,12 @@ We will investigate how the end-time behavior of the universe changes as we vary
 
 We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
+**Usage instructions**
+To use the code to run simulations, first clone the repo:
+```
+git clone https://github.com/clout-13/phy329_darkenergy_final/edit/
+```
+
 **Directory Structure:**
 Everything required to run the program is in the top-level directory. 
 - Demo.ipynb: Example of the project running. Interactive visualizer allowing user to explore CPL parameter space and visualize the resulting cosmic dynamics as per the Friedmann Equation.
