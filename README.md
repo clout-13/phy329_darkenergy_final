@@ -121,7 +121,7 @@ where $w_0$ is the value of the parameter today, and $w_a$ is a constant control
 ---
 
 
-Substituting this intto the fluid equation, we can find that the density of this variable dark energy would change with scale factor as:
+Substituting this into the fluid equation, we can find that the density of this variable dark energy would change with scale factor as:
 
 $\rho_{DE} = \rho_{DE,0}a^{-3(1 + w_0+w_a)}e^{-3w_a(1-a)}$
 
@@ -140,9 +140,13 @@ In general, we found that making either $w_0$ or $w_a$ _more negative_ would _in
 
 The reason for this can be explained as follows: Operating under the general assumption that a higher dark energy density implies a faster expansion, making either $w_0$ or $w_a$ more negative essentially decreases the average energy density of dark energy that was present in the past, which means the universe was expanding slower on average in the past, which means that the universe took longer to get to present day conditions, which means that the universe is older. 
 
-Why does making $w_0$ or $w_a$ more negative decrease the average density of dark energy in the past? While the exact relationship between the equation-of-state-parameter and energy density is given by the solutions of the fluid equation, very generally we can say that -- for any component -- the energy density increases with scale factor if $w<-1$ and decreases with scale factor if $w>-1$. The more negative $w$ is compared to $-1$, the faster the energy density increases with $a$. For negative values of $w_a$, the CPL parameterization is a continuous linear increase in $w_{DE}$, taking it from below $-1$ to above $-1$ (for reasonably negative values of $w_0$) -- meaning the CPL parameterization describes a universe where the density of dark energy initially increases with $a$ (and thus with time) before it peaks and begins to decrease going forward. 
+Why does making $w_0$ or $w_a$ more negative decrease the average density of dark energy in the past? While the exact relationship between the equation-of-state-parameter and energy density is given by the solutions of the fluid equation, very generally we can say that -- for any component -- the energy density increases with scale factor if $w<-1$ and decreases with scale factor if $w>-1$. For negative values of $w_a$, the CPL parameterization is a continuous linear increase in $w_{DE}$, taking it from below $-1$ to above $-1$ (for reasonably negative values of $w_0$) -- meaning the CPL parameterization describes a universe where the density of dark energy initially increases with $a$ (and thus with time) before it peaks and begins to decrease going forward. 
 
-Refer to the expression for A more negative value of $w_a$
+Very generally, the more negative $w$ is compared to $-1$, the faster the energy density will increase with $a$ (in the future and _recent_ past). 
+
+The CPL parameterization states $w_{DE}(a)=w_0+w_a(1-a)$. If we make $w_a$ more negative i.e. increase the slope of $w_{DE}(a)$ while keeping $w_0$ i.e. the present-day $w_{DE}$ the same, it means that $w_{DE}(a)$ would have been increasing faster in the past to get to the same present-day value, which means that $w_{DE}(a)$ was more negative in the past, which means that the dark energy density was increasing faster with $a$ in the _recent_ past to get to the same present-day value $\Omega_{DE,0}$, meaning that the dark energy density was less in the past and so the expansion rate was slower and the age longer. 
+
+If we make $w_0$ more negative while keeping $w_a$ the same, it just uniformly shifts all past $w_{DE}(a)$ values to even more negative values, which again increases the rate at which the dark energy density was growing with $a$ in the _recent_ past to achieve the same present-day $\Omega_{DE,0}$, again forcing that the dark energy density was less in the past and thus the expansion rate slower and the age longer. 
 
 ### Summary
 
