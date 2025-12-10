@@ -153,7 +153,8 @@ If we make $w_0$ more negative while keeping $w_a$ the same, it just uniformly s
 If dark energy changes over time, even slightly, it affects the expansion rate of the universe at different stages of its history. The CPL model introduces two parameters, $w_0$ and $w_a$, which control the behavior of dark energy. The value $w_0$ sets the strength of dark energy today, so changing $w_0$ shifts the current expansion rate and the predicted distances to nearby supernovae and galaxies. The parameter $w_a$ describes how dark energy evolves with time. Even small changes in $w_a$ modify the expansion rate in the early and mid-Universe and influence how large-scale structures grow. Because modern observations measure distances and growth rates with very high precision, variations in either $w_0$ or $w_a$ can leave detectable signatures. This is why studying a time-varying form of dark energy in the CPL framework is important.
 
 ![Probable values of w_0 and w_a from DESI Data Release 2 results](https://newscenter.lbl.gov/wp-content/uploads/2025/03/1389px_DR2-cosmo-christhian-890x665.jpg)
-Above: Probable values of w_0 and w_a from DESI Data Release 2 results
+
+Figure above: Probable values of w_0 and w_a from DESI Data Release 2 results
 
 Understanding the nature of dark energy is important in many ways - it can tell us the age of the universe, the timing of domination between radiation, matter, and dark energy in our universe's history, and help us predict how our universe will end up.
 
