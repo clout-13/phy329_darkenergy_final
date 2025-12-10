@@ -129,6 +129,16 @@ So, our Friedmann Equation describing the evolution of the universe with time-va
 
 $\dot{a}=aH_0\left[ \frac{\Omega_{r,0}}{a^4} + \frac{\Omega_{m,0}}{a^3} + \Omega_{DE,0}a^{-3(1 + w_0+w_a)}e^{-3w_a(1-a)} + \frac{1-\Omega_0}{a^2} \right]^{1/2}$
 
+## Some Observations and Results
+Early on we discovered that by running the Friedmann Equation solver backwards from the current day -- taken as $t=0$ Gyr, where $a=1$ by definition -- only halting when we reached $a=0$ (corresponding to the "initial singularity" conditions at the beginning of the universe), the magnitude of the time coordinate where we halted gave us an estimate of the age of the universe -- the time taken from $a=0$ to the present-day. 
+
+So, we could use our program to explore how changing the values of the CPL parameters while keeping the present-day density parameters and $H_0$ at their accepted values would change the estimated age of our universe. 
+
+In general, we found that making either $w_0$ or $w_a$ _more negative_ would _increase_ the estimated age of the universe. To effectively visualize this trend, we created a heatmap plot showing how universe age varies over the $(w_0,w_a)$ parameter space, seen below.
+
+<img width="1112" height="831" alt="image" src="https://github.com/user-attachments/assets/edfd3353-30a1-4606-ba4a-4f7545acd5b8" />
+
+The reason for this can be explained as follows: Operating under the general assumption that a higher dark energy density implies a faster expansion, making either $w_0$ or $w_a$ more negative essentially decreases the average amount of dark energy that was present in the past, which means the universe was expanding slower on average in the past, which means that the universe took longer to get to present day conditions, which means that the universe is older. 
 
 ### Summary
 
