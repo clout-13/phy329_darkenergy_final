@@ -12,7 +12,7 @@ We will investigate how the end-time behavior of the universe changes as we vary
 
 We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
-**Usage instructions**
+**Usage instructions:**
 
 First, clone the repo:
 ```
