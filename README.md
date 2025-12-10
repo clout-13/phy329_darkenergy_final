@@ -115,7 +115,7 @@ The Chevallier–Polarski–Linder (CPL) Parameterization is a common method of 
 
 $w(a)=w_0​+w_a​(1−a)$
 
-where $w_0$ is the value of the parameter today, and $w_a$ is a constant controlling how the overall parameter varies with time (or in this case, scale factor, which is analogous).
+where $w_0$ is the value of the parameter today, and $w_a$ is a constant controlling how the overall parameter varies with time (or in this case, scale factor, which is analogous). In the $\Lambda$CDM case, $w_0=-1$ and $w_a=0$.
 
 
 ---
@@ -138,7 +138,11 @@ In general, we found that making either $w_0$ or $w_a$ _more negative_ would _in
 
 <img width="1112" height="831" alt="image" src="https://github.com/user-attachments/assets/edfd3353-30a1-4606-ba4a-4f7545acd5b8" />
 
-The reason for this can be explained as follows: Operating under the general assumption that a higher dark energy density implies a faster expansion, making either $w_0$ or $w_a$ more negative essentially decreases the average amount of dark energy that was present in the past, which means the universe was expanding slower on average in the past, which means that the universe took longer to get to present day conditions, which means that the universe is older. 
+The reason for this can be explained as follows: Operating under the general assumption that a higher dark energy density implies a faster expansion, making either $w_0$ or $w_a$ more negative essentially decreases the average energy density of dark energy that was present in the past, which means the universe was expanding slower on average in the past, which means that the universe took longer to get to present day conditions, which means that the universe is older. 
+
+Why does making $w_0$ or $w_a$ more negative decrease the average density of dark energy in the past? While the exact relationship between the equation-of-state-parameter and energy density is given by the solutions of the fluid equation, very generally we can say that -- for any component -- the energy density increases with scale factor if $w<-1$ and decreases with scale factor if $w>-1$. The more negative $w$ is compared to $-1$, the faster the energy density increases with $a$. For negative values of $w_a$, the CPL parameterization is a continuous linear increase in $w_{DE}$, taking it from below $-1$ to above $-1$ (for reasonably negative values of $w_0$) -- meaning the CPL parameterization describes a universe where the density of dark energy initially increases with $a$ (and thus with time) before it peaks and begins to decrease going forward. 
+
+Refer to the expression for A more negative value of $w_a$
 
 ### Summary
 
