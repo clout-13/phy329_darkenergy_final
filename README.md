@@ -1,6 +1,7 @@
 # Universe Expansion Simulation with CPL Parameterization
 
 **Project Description:**
+
 The geometry and evolution of the Universe is determined by a set of components: matter, radiation, dark energy and curvature. The equation of state parameter for dark energy (according to the currently accepted $\Lambda$-CDM model) is a constant of $w_{DE}=-1$. However, it has been proposed that the equation of state parameter may vary with the scale factor of the Universe, $a(t)$, and hence with time. We intend to use the CPL parameterization (a certain description of a non-constant dark energy equation of state parameter) to model how the Universe would expand with such time-evolving dark energy. 
 
 The Friedmann equation is the ODE that determines the time evolution of the scale factor $a(t)$ for a universe given certain values of the present energy densities of the universe's components $\Omega_m, \Omega_r, \Omega_{DE}$, and their equation of state parameters $w_m=0,w_r=\frac{1}{3},w_{DE}$. The CPL parameteriztion for $w_{DE}$ is given by $w_{DE}(a)=w_0+w_a(1-a)$ where $w_0$ and $w_a$ are some constant parameters.  
@@ -12,6 +13,7 @@ We will investigate how the end-time behavior of the universe changes as we vary
 We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
 **Usage instructions**
+
 First, clone the repo:
 ```
 git clone https://github.com/clout-13/phy329_darkenergy_final.git
@@ -46,6 +48,7 @@ will create the below figure:
 
 
 **Directory Structure:**
+
 Everything required to run the program is in the top-level directory. 
 - Demo.ipynb: Example of the project running. Interactive visualizer allowing user to explore CPL parameter space and visualize the resulting cosmic dynamics as per the Friedmann Equation.
 - FriedmannEquationCPL.py: Defines FriedmannEquationCPL class which contains parameters and setup for model universe, as well as solvers for the Friedmann Equation and universe age. To be called in Demo.ipynb to create visualizations from the solutions.
