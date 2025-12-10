@@ -12,10 +12,38 @@ We will investigate how the end-time behavior of the universe changes as we vary
 We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
 **Usage instructions**
-To use the code to run simulations, first clone the repo:
+First, clone the repo:
 ```
-git clone https://github.com/clout-13/phy329_darkenergy_final/edit/
+git clone https://github.com/clout-13/phy329_darkenergy_final.git
 ```
+If you just want to use the provided interactive visualizer demo, open Demo.ipynb in the cloned repository using a python notebook editor such as Jupyter or VSCode. 
+
+If you want to run custom simulations of your own, simply import the FriedmannEquationCPL class from the FriedmannEquationCPL.py file into the Python program or notebook you are working in, and use the included methods. For example:
+
+```python
+from FriedmannEquationCPL import FriedmannEquationCPL
+import matplotlib.pyplot as plt
+
+# A model universe with LambdaCDM parameters except with H_0 = 70 and w_a = -1
+model = FriedmannEquationCPL(H_0=70, w_a=-1)
+# Solve it from current day to 100 Gyr in the future
+# Use 10000 data points and the RK45 solver
+t, a = model.solve(t_min=0, t_max=100, nt=10000, method="RK45")
+# Calculate the age of this universe
+age = model.find_universe_age(method="RK45")
+
+plt.figure()
+plt.plot(t, a)
+plt.xlabel("t [Gyr]")
+plt.ylabel("a")
+plt.title(f"Universe age = {age:.2f} Gyr")
+plt.savefig("a_vs_t.pdf")
+```
+
+will create the below figure:
+
+<img width="640" height="480" alt="a_vs_t" src="https://github.com/user-attachments/assets/d1645d57-ecb7-43bf-a4bf-8464c19db91f" />
+
 
 **Directory Structure:**
 Everything required to run the program is in the top-level directory. 
