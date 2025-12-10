@@ -144,7 +144,9 @@ Why does making $w_0$ or $w_a$ more negative decrease the average density of dar
 
 Very generally, the more negative $w$ is compared to $-1$, the faster the energy density will increase with $a$ (in the future and _recent_ past). 
 
-The CPL parameterization states $w_{DE}(a)=w_0+w_a(1-a)$. If we make $w_a$ more negative i.e. increase the slope of $w_{DE}(a)$ while keeping $w_0$ i.e. the present-day $w_{DE}$ the same, it means that $w_{DE}(a)$ would have been increasing faster in the past to get to the same present-day value, which means that $w_{DE}(a)$ was more negative in the past, which means that the dark energy density was increasing faster with $a$ in the _recent_ past to get to the same present-day value $\Omega_{DE,0}$, meaning that the dark energy density was less in the past and so the expansion rate was slower and the age longer. 
+The CPL parameterization states $w_{DE}(a)=w_0+w_a(1-a)$. If we make $w_a$ more negative i.e. increase the slope of $w_{DE}(a)$ while keeping $w_0$ i.e. the present-day $w_{DE}$ the same, it means that $w_{DE}(a)$ would have been increasing faster in the past to get to the same present-day value, which means that $w_{DE}(a)$ was more negative in the past, which means that the dark energy density was increasing faster with $a$ in the _recent_ past to get to the same present-day value $\Omega_{DE,0}$, meaning that the dark energy density was less in the past and so the expansion rate was slower and the age longer. This case is illustrated in the figure below:
+
+<img width="883" height="630" alt="test_figure" src="https://github.com/user-attachments/assets/dbb2914f-06f6-4e70-a3a6-184ebbe0ac35" />
 
 If we make $w_0$ more negative while keeping $w_a$ the same, it just uniformly shifts all past $w_{DE}(a)$ values to even more negative values, which again increases the rate at which the dark energy density was growing with $a$ in the _recent_ past to achieve the same present-day $\Omega_{DE,0}$, again forcing that the dark energy density was less in the past and thus the expansion rate slower and the age longer. 
 
