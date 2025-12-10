@@ -8,8 +8,6 @@ The Friedmann equation is the ODE that determines the time evolution of the scal
 
 We will create a program which can solve a version of the Friedmann equation implementing the CPL parameterization given any specified values of the present density parameters $\Omega_m, \Omega_r, \Omega_{DE}$ and the CPL parameters $w_0$ and $w_a$, and make plots of the scale factor $a(t)$ and Hubble parameter (expansion rate) $H(t)=\frac{\dot{a}}{a}$ (among others) as functions of time. 
 
-We will investigate how the end-time behavior of the universe changes as we vary the parameters of the Friedmann equation, particularly the CPL parameters $w_0,w_a$ which model the nature of dark energy. We will attempt to map out the $w_a,w_0$ phase space into regions where the universe would expand indefinitely over infinite time ("Big Chill" or "Heat Death"), where the universe would collapse back to a point in finite time ("Big Crunch"), where the universe's scale factor would blow up to infinity in finite time ("Big Rip") and any other behaviors we may observe. <-- We should probably remove this.
-
 We will also compare the performance of using a standard vs an implicit ODE solver for this equation.   
 
 **Usage instructions:**
